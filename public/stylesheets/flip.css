@@ -1,0 +1,37 @@
+.page {
+	background-color: blue;
+	display: inline;
+	float: left;
+	height: 100vh;
+	margin: auto;
+	width: 5vw;
+	-webkit-transition: all 1.5s ease-in-out;
+	transition: all 1.5s ease-in-out;
+}
+
+.one{
+
+	background-image: url("../images/waveforms.jpg");
+}
+
+.displayed {
+	background-color: green;
+	display: inline;
+	width: 80vw
+}
+
+.edge{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.page:hover{
+	background-color: green;
+	width:80vw;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
