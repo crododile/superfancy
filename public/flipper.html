@@ -5,33 +5,18 @@
 		<title>Flipper</title>
 		<link href="./stylesheets/flip.css" rel='stylesheet'>
 		<script src="./javascripts/jquerycore.js"></script>
-    <script src="./javascripts/jqueryui.js"></script>
+                <script src="./javascripts/jqueryui.js"></script>
 	</head>
 	<body>
 		<div class='container'>
-			<div class='page one'>
-				<!-- <a href="http://oscillator.herokuapp.com"><img src="images/waveforms.jpg" alt="" class="image full"/></a> -->
-			</div>
-			<div class='page two'>
-				<canvas width="600" height="600" style="width:100%; height: 97vh"></canvas>
-			</div>
+			<div class='page'>1</div>
+			<div class='page'>2</div>
 			<div class='page displayed'>3</div>
 			<div class='page'>4</div>
-			<div class='page edge'>5</div>
-			<div></div>
-
+			<div class='page'>5</div>
+			<div class-'page'>6</div>
 		</div>
 	</body>
   <script src="./javascripts/flip.js"></script>
-  <script src="./javascripts/asteroids/game.js"></script>
-  <script src='./javascripts/asteroids/moving_object.js'></script>
-  <script src='./javascripts/asteroids/asteroid.js'></script>
-  <script src='./javascripts/asteroids/ship.js'></script>
-  <script src='./javascripts/asteroids/bullet.js'></script>
-  <script src="./javascripts/asteroids/keymaster.js"></script>
-  <script>
-      var canvas = document.getElementsByTagName("canvas")[0];
-      var gam3 = new Asteroids.Game(canvas,600, 600)
-      gam3.start(8);
-  </script>
+  <script>$(function(){accordion($('.container'))})</script>
 </html>
