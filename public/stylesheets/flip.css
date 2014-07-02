@@ -1,34 +1,21 @@
 .page {
-	background-color: blue;
-	display: inline;
+	font-family: "Courier New", Courier, monospace;
+	background-color: #F2AE39;
+  text-align: center;
 	float: left;
 	height: 100vh;
-	margin: auto;
-	width: 5vw;
-	-webkit-transition: all 1.5s ease-in-out;
-	transition: all 1.5s ease-in-out;
-}
-
-.one{
-
-	background-image: url("../images/waveforms.jpg");
+	color: #6F67EE;
+	font-weight: bold;
 }
 
 .displayed {
 	background-color: green;
-	display: inline;
-	width: 80vw
 }
 
 .edge{
 	position: absolute;
 	right: 0;
 	top: 0;
-}
-
-.page:hover{
-	background-color: green;
-	width:80vw;
 }
 
 body{

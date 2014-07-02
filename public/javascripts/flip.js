@@ -9,8 +9,7 @@ $(function(){
 			transition: all 1s ease-in-out;\
 			overflow-y: hidden;\
 			margin: auto;\
-			display: inline;\
-			position: relative;}"
+			display: inline;}"
 		$('<style type="text/css"></style>').text(pageRule).appendTo('head');
 		$('<style type="text/css"></style>').text(newRule).appendTo('head');	
 	
