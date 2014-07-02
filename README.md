@@ -10,4 +10,8 @@ to use place several 'divs' with the class '.page' inside of a container div ie.
 
 then on document ready call accordion($('.container'))
 
+add your own styles to the 'page' elements for things such as coloring.
+
+The javascript should be pretty approachable so feel free to tweak it.
+
 enjoy the breezee....
