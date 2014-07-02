@@ -2,9 +2,9 @@ $(function(){
 	accordion = function(el){
 		var dSize = ((el.children().length -1)/el.children().length) * 100
 		var pSize = ((100 -dSize)/(el.children().length -1))
-		var newRule = ".displayed { width: "+ dSize+"vw }"
+		var newRule = ".displayed { width: "+ dSize+"% }"
 		var pageRule =".page {\
-			width: "+ pSize +"vw;\
+			width: "+ pSize +"%;\
 			-webkit-transition: all 1s ease-in-out;\
 			transition: all 1s ease-in-out;\
 			overflow-y: hidden;\

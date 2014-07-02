@@ -13,12 +13,7 @@
 }
 
 .edge{
-	position: absolute;
+	position: relative;
 	right: 0;
 	top: 0;
-}
-
-body{
-	margin: 0;
-	padding: 0;
 }
